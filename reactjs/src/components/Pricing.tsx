@@ -12,9 +12,9 @@ export default function Pricing() {
             <div className="max-w-6xl mx-auto px-4">
 
                 <Title
-                    title="Pricing"
-                    heading="Simple, transparent pricing"
-                    description="Flexible agency packages designed to fit startups, growing teams and established brands."
+                    title="Phases"
+                    heading="EvolveX 1.0 Highlights"
+                    description="From industry conferences to competitive esports festivals, EvolveX 1.0 delivered impactful experiences for Sri Lankan youth."
                 />
 
                 <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -73,12 +73,12 @@ export default function Pricing() {
 
                             <div>
                                 {plan.popular ? (
-                                    <PrimaryButton className="w-full">
-                                        Get started
+                                    <PrimaryButton className="w-full text-sm">
+                                        Learn more
                                     </PrimaryButton>
                                 ) : (
-                                    <GhostButton className="w-full justify-center">
-                                        Get started
+                                    <GhostButton className="w-full justify-center text-sm">
+                                        Learn more
                                     </GhostButton>
                                 )}
                             </div>

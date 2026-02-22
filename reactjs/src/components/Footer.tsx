@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-white/10">
                     <div>
-                        <img src='/logo.svg' alt="logo" className="h-8" />
+                        <img src='/competition-logo.jpeg' alt="logo" className="h-12 w-auto" />
                         <p className="max-w-[410px] mt-6 text-sm leading-relaxed">
                             We are a digital agency focused on strategy, design and development—helping brands build meaningful digital experiences and grow sustainably.
                         </p>
@@ -47,7 +47,7 @@ export default function Footer() {
                 <p className="py-4 text-center text-sm text-gray-400">
                     © {new Date().getFullYear()} {' '}
                     <a href="#">
-                        Evolvex
+                        EvolveX
                     </a>
                     . All rights reserved.
                 </p>

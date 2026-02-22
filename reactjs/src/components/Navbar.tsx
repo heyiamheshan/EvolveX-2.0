@@ -22,7 +22,7 @@ export default function Navbar() {
         >
             <div className='max-w-6xl mx-auto flex items-center justify-between bg-black/50 backdrop-blur-md border border-white/4 rounded-2xl p-3'>
                 <a href='/#'>
-                    <img src='/logo.svg' alt="logo" className="h-8" />
+                    <img src='/competition-logo.jpeg' alt="logo" className="h-10 w-auto" />
                 </a>
 
                 <div className='hidden md:flex items-center gap-8 text-sm font-medium text-gray-300'>
@@ -37,7 +37,7 @@ export default function Navbar() {
                     <button className='text-sm font-medium text-gray-300 hover:text-white transition max-sm:hidden'>
                         Sign in
                     </button>
-                    <PrimaryButton className='max-sm:text-xs hidden sm:inline-block'>Get Started</PrimaryButton>
+                    <PrimaryButton className='max-sm:text-xs hidden sm:inline-block'>Join Us</PrimaryButton>
                 </div>
 
                 <button onClick={() => setIsOpen(!isOpen)} className='md:hidden'>
@@ -54,7 +54,7 @@ export default function Navbar() {
                 <button onClick={() => setIsOpen(false)} className='font-medium text-gray-300 hover:text-white transition'>
                     Sign in
                 </button>
-                <PrimaryButton onClick={() => setIsOpen(false)}>Get Started</PrimaryButton>
+                <PrimaryButton onClick={() => setIsOpen(false)}>Join Us</PrimaryButton>
 
                 <button
                     onClick={() => setIsOpen(false)}

@@ -2,84 +2,84 @@ import { UploadIcon, VideoIcon, ZapIcon } from 'lucide-react';
 
 export const featuresData = [
     {
-        icon: <UploadIcon className="w-6 h-6" />,
-        title: 'Discovery & Planning',
-        desc: 'We understand your goals, audience and challenges to craft a clear, actionable strategy.'
+        icon: <ZapIcon className="w-6 h-6" />,
+        title: 'Gaming & Competition',
+        desc: 'Organizing competitive events that foster teamwork, leadership, and togetherness among youth.'
     },
     {
-        icon: <ZapIcon className="w-6 h-6" />,
-        title: 'Design & Development',
-        desc: 'High-quality design and scalable development focused on performance and usability.'
+        icon: <UploadIcon className="w-6 h-6" />,
+        title: 'Education & Career',
+        desc: 'Building awareness of careers in esports, game development, and digital entertainment.'
     },
     {
         icon: <VideoIcon className="w-6 h-6" />,
-        title: 'Launch & Growth',
-        desc: 'We launch, optimize and continuously improve to drive measurable business growth.'
+        title: 'Community Service',
+        desc: 'Promoting inclusivity and empowering youth across Sri Lanka beyond just IT backgrounds.'
     }
 ];
 
 export const plansData = [
     {
-        id: 'starter',
-        name: 'Starter',
-        price: '$499',
-        desc: 'Best for early-stage startups.',
-        credits: 'One-time',
+        id: 'interviews',
+        name: 'Interviews & Talks',
+        price: 'Phase 1',
+        desc: 'Industry experts sharing knowledge.',
+        credits: 'Completed',
         features: [
-            'Project discovery & planning',
-            'UI/UX design',
-            'Basic website development',
-            '1 revision round',
-            'Email support'
+            'Expert interviews',
+            'Career guidance sessions',
+            'Industry insights',
+            'Digital entertainment focus',
+            'Skill awareness'
         ]
     },
     {
-        id: 'pro',
-        name: 'Growth',
-        price: '$1,499',
-        desc: 'Growing teams and businesses.',
-        credits: 'Monthly',
+        id: 'festival',
+        name: 'Esports Festival',
+        price: 'Phase 2',
+        desc: 'Competitive events and teamwork.',
+        credits: 'Successful',
         features: [
-            'Everything in Starter',
-            'Advanced UI/UX design',
-            'Custom development',
-            'Performance optimization',
-            'Priority support'
+            'Teamwork building',
+            'Leadership training',
+            'Competitive tournament',
+            'Emerging talent recognition',
+            'Community engagement'
         ],
         popular: true
     },
     {
-        id: 'ultra',
-        name: 'Scale',
-        price: '$3,999',
-        desc: 'For brands ready to scale fast.',
-        credits: 'Custom',
+        id: 'future',
+        name: 'Sustainable Future',
+        price: 'Phase 3',
+        desc: 'Uplifting the esports ecosystem.',
+        credits: 'Ongoing',
         features: [
-            'Everything in Growth',
-            'Dedicated project manager',
-            'Ongoing optimization',
-            'Marketing & growth support',
-            'Chat + Email support'
+            'Collaborative growth',
+            'Ecosystem development',
+            'Youth empowerment',
+            'Inclusive culture',
+            'Continuous opportunity'
         ]
     }
 ];
 
 export const faqData = [
     {
-        question: 'What services does your agency provide?',
-        answer: 'We offer end-to-end digital services including brand strategy, UI/UX design, web and app development and growth-focused marketing solutions.'
+        question: 'What is EvolveX?',
+        answer: 'EvolveX is an innovative esports initiative by the Rotaract Club of University of Kelaniya designed to empower Sri Lankan youth through gaming, education, and community service.'
     },
     {
-        question: 'Do you work with startups or only large companies?',
-        answer: 'We work with startups, growing businesses and established brands. Our process is flexible and tailored to match your goals and scale.'
+        question: 'What was EvolveX 1.0?',
+        answer: 'EvolveX 1.0 featured interviews, conferences, and an esports festival that connected students with industry experts to build awareness of careers in gaming.'
     },
     {
-        question: 'How long does a typical project take?',
-        answer: 'Project timelines vary by scope, but most projects take between 2–6 weeks. We provide a clear timeline after the discovery phase.'
+        question: 'Who can participate?',
+        answer: 'The initiative is open to all Sri Lankan youth, promoting inclusivity beyond IT backgrounds to encourage teamwork and leadership.'
     },
     {
-        question: 'Do you offer ongoing support after launch?',
-        answer: 'Yes. We offer maintenance, optimization and growth support packages to ensure your product continues to perform and evolve.'
+        question: 'What are the goals of EvolveX?',
+        answer: 'Our goal is to strengthen youth engagement, uplift the esports ecosystem in Sri Lanka, and support a sustainable, collaborative future for digital entertainment.'
     }
 ];
 

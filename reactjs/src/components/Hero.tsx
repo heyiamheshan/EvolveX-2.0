@@ -51,7 +51,7 @@ export default function Hero() {
                                     ))}
                                 </div>
                                 <span className="text-xs text-gray-200/90">
-                                    Trusted by brands & founders worldwide
+                                    An initiative of Rotaract Club of University of Kelaniya
                                 </span>
                             </motion.a>
 
@@ -61,9 +61,9 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.1 }}
                             >
-                                We design & build <br />
+                                Empowering Sri Lankan Youth <br />
                                 <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-300 to-indigo-400">
-                                    high-impact digital experiences
+                                    Through Esports
                                 </span>
                             </motion.h1>
 
@@ -73,8 +73,7 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.2 }}
                             >
-                                A creative digital agency helping startups and businesses grow through
-                                thoughtful design, scalable development and performance-driven strategy.
+                                EvolveX is an innovative esports initiative designed to transform passion into opportunity, promoting inclusivity and building awareness of careers in digital entertainment.
                             </motion.p>
 
                             <motion.div className="flex flex-col sm:flex-row items-center gap-4 mb-8"
